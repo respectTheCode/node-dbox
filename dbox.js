@@ -188,7 +188,7 @@ exports.createClient = function(config){
       var params = sign(options)
       var args = {
         "method": "GET",
-        "url": "https://api-content.dropbox.com/1/thumbnails/" + (params.root || root) + "/" + qs.escape(path) + "?" + qs.stringify(params)
+        "url": "https://api-content.dropbox.com/1/thumbnails/" + (params.root || root) + "/" + qs.escape(path) + "?" + qs.stringify(params),
         "encoding": null
       }
       request(args, function(e, r, b){

@@ -1,7 +1,7 @@
 {
   "name": "dbox",
   "description": "NodeJS SDK for the Dropbox API",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Brock Whitten <brock@sintaxi.com>",
   "contributors": [
     { "name": "Brock Whitten", "email": "brock@sintaxi.com" },
@@ -16,7 +16,7 @@
     "url": "https://github.com/sintaxi/node-dbox.git"
   },
   "dependencies": {
-    "request": "2.9.4"
+    "request": "2.9.3"
   },
   "engines": { "node": "*" },
   "licenses" : [
